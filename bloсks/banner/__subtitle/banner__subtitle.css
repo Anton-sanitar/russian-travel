@@ -1,0 +1,23 @@
+.banner__subtitle {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: normal;
+	text-align: center;
+	padding: 32px 0 64px;
+	max-width: 640px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .banner__subtitle {
+    	padding: 32px 0 56px;
+	}
+} 
+
+@media screen and (max-width: 767px) {
+    .banner__subtitle {
+	    font-size: 16px;
+		line-height: 20px;
+	}
+}

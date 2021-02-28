@@ -1,0 +1,16 @@
+.footer__column-items {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(min-content, max-content));
+	justify-content: start;
+	gap: 0 18px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__column-items {
+    	grid-template-columns:  1fr;
+    	gap: 32px;
+	}
+}

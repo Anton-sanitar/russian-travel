@@ -1,0 +1,9 @@
+.article__links {
+	align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .article__links {
+	    padding: 32px 16px 0;
+	}
+}

@@ -1,0 +1,20 @@
+.overlay__subtitle {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 auto;
+	padding-top: 32px;
+	max-width: 360px;
+}
+
+@media screen and (max-width: 767px) {
+    .overlay__subtitle {
+    	padding-top: 16px;
+    	font-size: 14px;
+		line-height: 16px;
+		max-width: 288px;
+	}
+}

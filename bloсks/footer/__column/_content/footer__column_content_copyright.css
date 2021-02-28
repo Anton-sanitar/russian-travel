@@ -1,0 +1,9 @@
+.footer__column_content_copyright {
+	justify-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__column_content_copyright {
+    	justify-self: start;
+	}
+}

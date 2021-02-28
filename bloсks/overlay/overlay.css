@@ -1,0 +1,22 @@
+.overlay {
+    font-family: 'Inter', sans-serif;
+	padding: 92px 48px 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .overlay {
+    	padding: 92px 0 0;
+	}
+} 
+
+@media screen and (max-width: 1023px) {
+    .overlay {
+    	padding: 90px 0 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+    .overlay {
+    	padding: 66px 0 0;
+	}
+}

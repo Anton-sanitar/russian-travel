@@ -1,0 +1,15 @@
+.footer__columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__columns {
+    	grid-template-columns:  1fr;
+    	gap: 48px;
+	}
+}
